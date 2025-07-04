@@ -77,7 +77,7 @@ def carrega_modelo(arquivo):
     ])
 
     # ChatModel
-    openai = ChatOpenAI(api_key=api_key, temperature=0.2, top_p=0.5)
+    openai = ChatOpenAI(model='gpt-4o', api_key=api_key, temperature=0.2, top_p=0.5)
 
     chain = template | openai
     st.session_state['chain'] = chain
