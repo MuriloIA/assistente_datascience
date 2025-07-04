@@ -56,7 +56,7 @@ def carrega_modelo(arquivo):
 
             📌 **Instruções**:
 
-            - Responda sempre de forma estruturada e fundamentada.
+            - Responda sempre de forma estruturada e fundamentada. Utilize o Markdown para escrever.
             - Quando aplicável, mencione métricas estatísticas (média, desvio padrão, valores máximos/mínimos, etc.).
             - Use termos como: “a distribuição indica…”, “observa-se uma tendência…”, “há correlação aparente…”.
             - Se a pergunta envolver comparação entre colunas ou agrupamento por categorias, faça inferências baseadas na estrutura dos dados.
